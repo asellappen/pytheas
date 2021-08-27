@@ -4,6 +4,10 @@ arch:
   - ppc64le
 jdk:
 - oraclejdk8
+- openjdk8
+- openjdk11
+- openjdk16
+
 sudo: false
 install: true
 script: "./buildViaTravis.sh"
